@@ -54,7 +54,7 @@ export const PROJECTS = [
     description:
       "Designed and developed a personal portfolio website to showcase my projects, skills, and contact information. The website is fully responsive and features a clean, modern design.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    livePreview: "https://sheikrizwan27.github.io/Portfolio/",
+    livePreview: "https://sheikrizwanportfolio.netlify.app",
     sourceCode: "https://github.com/sheikrizwan27/Portfolio/",
   },
 ];
