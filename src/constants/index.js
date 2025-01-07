@@ -1,7 +1,8 @@
-import project4 from "../assets/projects/landing java.png";
+import project1 from "../assets/projects/bank-management.webp";
 import project2 from "../assets/projects/hospital website.png";
 import project3 from "../assets/projects/food blog.png";
-import project1 from "../assets/projects/bank-management.webp";
+import project4 from "../assets/projects/landing java.png";
+import project5 from "../assets/projects/portfolio.png";
 
 
 export const HERO_CONTENT = `As a highly motivated Full Stack Java Developer, I specialize in building robust, scalable, and user-centric web applications. With expertise in Java, Spring Boot, and MySQL on the back-end, combined with front-end technologies like React, Tailwind CSS, and Bootstrap, I deliver seamless and efficient solutions. I am committed to leveraging my technical skills and problem-solving abilities to contribute to innovative projects that drive organizational success while continuously enhancing my knowledge in the evolving field of software development.
@@ -46,6 +47,15 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS"],
     livePreview: "https://sheikrizwan27.github.io/landing-page/",
     sourceCode: "https://github.com/sheikrizwan27/landing-page",
+  },
+  {
+    title: "Portfolio Website",
+    image: project5,
+    description:
+      "Designed and developed a personal portfolio website to showcase my projects, skills, and contact information. The website is fully responsive and features a clean, modern design.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    livePreview: "https://sheikrizwan27.github.io/Portfolio/",
+    sourceCode: "https://github.com/sheikrizwan27/Portfolio/",
   },
 ];
 
