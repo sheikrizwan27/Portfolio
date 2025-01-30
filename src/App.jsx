@@ -1,5 +1,4 @@
 import About from "./components/About";
-import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -19,12 +18,8 @@ const App = () => {
         <Hero />
         <About/>
         <Technology/>
-        <Experience/>
         <Project/>
         <Footer/>
-        
-     
-      
       
       </div>
     </div>

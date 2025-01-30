@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile-pic(3).png";
-import resume from "../assets/resume-example.pdf"; // Importing the resume file
+import profilePic from "../assets/mypic.jpg";
+import resume from "../assets/myresume.pdf"; // Importing the resume file
 import { motion } from "framer-motion";
 
 const container = {
@@ -43,7 +43,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}  // Adjust delay for h1
             >
-              <h1>Sakthivel R</h1>
+              <h1>Sheik Rizwan</h1>
             </motion.div>
             <motion.span
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight"
@@ -51,10 +51,10 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}  // Adjust delay for hero content
             >
-              FrontEnd Developer
+              Full Stack Java Developer
             </motion.span>
             <motion.p
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light lg:text-lg lg:leading-8 "
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.8 }}  
@@ -80,10 +80,11 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 1 }}  
         >
-          <div className="flex justify-center">
+          <div className="flex justify-center myimage">
             <motion.img
               src={profilePic}
               alt="profile"
+              className="max-h-[600px] w-auto max-w-full object-cover rounded-lg shadow-lg"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
