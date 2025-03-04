@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "Tasty Corner",
     image: project5,
     description:
-      "Designed as a delightful food ordering platform**, Tasty Corner offers a variety of dessert items, allowing users to search for their favorite treats, add them to their cart, and generate the total bill effortlessly.",
+      "Designed as a delightful food ordering platform, Tasty Corner offers a variety of dessert items, allowing users to search for their favorite treats, add them to their cart, and generate the total bill effortlessly.",
     technologies: ["HTML", "CSS","React Js"],
     livePreview: "https://tastycorner.netlify.app/",
   },
