@@ -47,24 +47,16 @@ const Project = () => {
                   </span>
                 ))}
               </div>
-             {/* Conditionally render buttons only if livePreview and sourceCode are available */}
-             {project.title !== "Bank Management System" && (
+             {/* Conditionally render buttons only if livePreview is available */}
+             {project.title !== "Bank Management System" && project.livePreview && (
                 <div>
                   <a
                     href={project.livePreview}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-4 rounded bg-purple-700 px-4 py-2 text-sm font-medium text-white hover:bg-purple-800"
+                    className="rounded bg-purple-700 px-4 py-2 text-sm font-medium text-white hover:bg-purple-800"
                   >
                     Live Preview
-                  </a>
-                  <a
-                    href={project.sourceCode}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="rounded bg-neutral-700 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800"
-                  >
-                    Source Code
                   </a>
                 </div>
               )}
